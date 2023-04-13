@@ -1,0 +1,164 @@
+* {
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: relative;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 40px;
+}
+
+nav img {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+    opacity: 0.7;
+}
+
+nav a:hover {
+    opacity: 1;
+}
+
+.jumbotron {
+    height: 400px;
+    padding: 40px;
+    background-image: url(images/jumbotron.png);
+}
+
+.jumbotron-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px 40px;
+    padding: 40px;
+    color: white;
+}
+
+.jumbotron p {
+    margin-bottom: 40px;
+}
+
+.jumbotron button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    border: 0px solid;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.about {
+    padding: 40px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.about-text {
+    background-color: white;
+    padding-left: 50px;
+}
+
+.about h2 {
+    border-bottom: 2px solid green;
+    max-width: fit-content;
+}
+
+.about p {
+    max-width: 80%;
+    text-align: justify;
+}
+
+.about-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+.form > h2 {
+    margin-right: 400px;
+}
+
+.wrapper {
+    list-style-type: none;
+    padding: 0;
+    border-radius: 3px;
+    max-width: 80%;
+}
+
+.form-row {
+    display: flex;
+    justify-content: center;
+    padding: 0.8em;
+}
+
+.form-row > label {
+    padding: .5em 1em .5em 0;
+}
+
+.form-row > input {
+    flex: 2;
+    padding: .5em;
+} */
+
+.form-row > button {
+    background: green;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: .5em;
+    cursor: pointer;
+}
+
+footer {
+    background-color: green;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+    opacity: 0.7;
+}
+
+footer a:hover {
+    opacity: 1;
+}
+  
